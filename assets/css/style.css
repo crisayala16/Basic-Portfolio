@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+}
+
+h1, h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+li, p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+p{
+	margin: 20px;
+}
+ul{
+	list-style-type: none;
+	width: 100%;
+	height: 75px;
+	margin: 0;
+	padding: 10;
+	border-bottom: 3px solid grey;
+
+}
+li{
+	margin-top: 20px;
+	text-decoration: none;
+}
+li, h1{
+	display: block;
+	text-align: center;
+	padding: 15px;
+	float: left;
+}
+h1{
+	background-color: teal;
+	margin-right: 150px;
+	text-align: center;
+}
+h2{
+	color: teal;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	border-bottom: 4px solid grey;
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+#main, #connect{
+	float: left;
+    margin: 10px;
+    border: 4px solid grey;
+}
+#main{
+	width: 650px;
+}
+#connect{
+	width: 270px;
+}
+#git-image, #link-image{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 5px;
+}
+#sof-image{
+	margin: 5px;
+	width: 80px;
+	height: 80px;
+}
+#cris-image{
+	float: left;
+	margin: 10px 20px;
+	width: 200px;
+	height: 200px;
+}
+
