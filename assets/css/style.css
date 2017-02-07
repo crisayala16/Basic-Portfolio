@@ -63,7 +63,7 @@ h3{
 
 #a, #b{
 	border-right: 2px solid grey;
-	padding-right: 30px;
+	padding-right: 15px;
 
 }
 
@@ -154,11 +154,13 @@ h3{
 	padding: 20px 0px;
 	background: #666666;
 	border-top: 10px solid teal;
-	margin-top: 50px;
+	margin-top: 100px;
 	width: 960px;
 	margin: 0 auto;
 	text-align: center;
 	clear: both;
+	position: relative;
+	top: 100px;
 }
 
 .port{
